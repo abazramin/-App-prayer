@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 75%);
+} */
+
+@media (max-width: 540px) {
+    .col-lg-2 {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 540px) {
+    .col-lg-2 {
+        padding: 10px;
+    }
+}
+
+.headd {
+
+    background-color: #b2bec3;
+}
+
+.card {
+    transition: all .45s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(.9);
+}
+
+h1 {
+    color: #fff !important;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* Add your background pattern here */
+    background: lightblue;
+    background: radial-gradient(circle,
+            rgb(170, 162, 162),
+            #333 30%,
+            rgba(88, 84, 84, 0.226) 0%),
+        radial-gradient(circle at 40px 40px,
+            rgb(233, 228, 228),
+            #333 30%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 600px 200px,
+            rgb(233, 228, 228),
+            #333 10%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 800px 100px,
+            rgb(233, 228, 228),
+            #333 10%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 700px 500px,
+            rgb(233, 228, 228),
+            #333 2%,
+            rgba(88, 84, 84, 0.123) 0%),
+        radial-gradient(circle at 200px 400px,
+            rgb(233, 228, 228),
+            #333 1%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 300px 700px,
+            rgb(233, 228, 228),
+            #333 15%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 900px 500px,
+            rgb(233, 228, 228),
+            #333 20%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 650px 400px,
+            rgb(233, 228, 228),
+            #333 10%,
+            rgba(88, 84, 84, 0) 0%),
+        radial-gradient(circle at 600px 600px,
+            rgb(233, 228, 228),
+            #333 1%,
+            rgba(88, 84, 84, 0.959) 0%);
+}
